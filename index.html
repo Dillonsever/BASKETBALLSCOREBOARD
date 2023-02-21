@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class = "contenthome">
+                <h3>HOME</h3>
+                <div id="scorehome">
+                    0
+                </div>
+                <div class="buttonshome">
+                    <button class="btn1" style="font-family: cursed timer ulil;" onclick="home1()">+1</button>
+                    <button class="btn2" style="font-family: cursed timer ulil;" onclick="home2()">+2</button>
+                    <button class="btn3" style="font-family: cursed timer ulil;" onclick="home3()">+3</button>
+                    <button class="btn3" style="font-family: cursed timer ulil;" onclick="reset()" >RESET ALL</button>
+                </div>
+            </div>
+            <div class="contentaway">
+                <h3>GUEST</h3>
+                <div id="scoreaway">
+                    0
+                </div>
+                <div class="buttonsaway">
+                    <button class="btn1" style="font-family: cursed timer ulil;" onclick="away1()" >+1</button>
+                    <button class="btn2" style="font-family: cursed timer ulil;" onclick="away2()" >+2</button>
+                    <button class="btn3" style="font-family: cursed timer ulil;" onclick="away3()" >+3</button>
+                    <button class="btn3" style="font-family: cursed timer ulil;" onclick="reset()" >RESET ALL</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
